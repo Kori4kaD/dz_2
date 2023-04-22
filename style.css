@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow: hidden;
+}
+.container {
+  margin: 0 auto;
+}
+header {
+  background-color: #008a8b;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h1 {
+  padding-left: 28px;
+  color: white;
+  padding-top: 28px;
+}
+.grid {
+  margin-top: 100px;
+  height: 85vh;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: minmax(300px, 400px) minmax(300px, 400px) minmax(
+      300px,
+      400px
+    ) minmax(300px, 400px) minmax(300px, 400px);
+
+  gap: 15px;
+
+  background-color: #009e9d;
+  padding: 15px;
+  overflow-y: hidden;
+}
+.container_board {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+.board {
+  padding: 15px;
+  height: 76vh;
+  display: grid;
+
+  grid-template-rows: max-content max-content max-content;
+  gap: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.coments {
+  height: 20px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 7px;
+  padding: 10px;
+}
+.coments p {
+  margin: -9px;
+}
+.coments > img {
+  height: 15px;
+}
+h3 {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+p {
+  padding: 10px;
+  font-family: system-ui;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.ava {
+  height: 25px;
+  margin-top: 6px;
+}
+.card {
+  background-color: #f7f3f4;
+  border-radius: 5px;
+}
